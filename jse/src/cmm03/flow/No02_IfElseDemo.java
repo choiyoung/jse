@@ -1,4 +1,4 @@
-package cmm02.op;
+package cmm03.flow;
 import java.util.Scanner;
 public class No02_IfElseDemo {
 	int big;
