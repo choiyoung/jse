@@ -19,16 +19,19 @@ public class No05_MultiDimArrDemo {
 		System.out.println("============================================");
 		
 		for(int i = 0 ;i<score.length;i++){
-			int sum = 0 ;
+			int sum = 0;
+			int avg = 0 ;
 			korTotal += score[i][0];
 			engTotal += score[i][1];
 			mathTotal += score[i][2];
 			System.out.print(" "+ ( i + 1 ) + "	");
 			for(int j = 0; j<score[i].length;j++){
-				sum = score[i][j];
-				System.out.print(score[i][j]+"	");				
+				avg = score[i][j];
+				sum += score[i][j];
+				System.out.print(score[i][j]+"	");
 			}
-			System.out.println(sum +"	"+sum/(float)score[i].length);
+			System.out.println(sum+"	"+avg);
+			
 		}
 		System.out.println("============================================");
 		// 아래 총점에서 국어, 영어, 수학 총점이 나오게 하세요
