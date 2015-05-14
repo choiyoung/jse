@@ -1,6 +1,6 @@
 package cmm03.flow;
 
-public class No08_NumberMathVO {
+public class No08_NumberMatchVO {
 
 	int player, com, count;
 	public int game(int com, int player){

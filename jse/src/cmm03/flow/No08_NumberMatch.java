@@ -2,10 +2,10 @@ package cmm03.flow;
 
 import java.util.Scanner;
 
-public class No08_NumberMath {
+public class No08_NumberMatch {
 
 	public static void main(String[] args) {
-	No08_NumberMathVO vo = new No08_NumberMathVO();
+	No08_NumberMatchVO vo = new No08_NumberMatchVO();
 	System.out.println("총 3회만 입력가능합니다.");
 	Scanner  scanner = new Scanner(System.in);
 	int result = 0;
@@ -21,7 +21,7 @@ public class No08_NumberMath {
 		System.out.println("문자는 안됩니다.");
 	}
 	
-	if(vo.getPlayer()==0){
+	if(result==0){
 		System.out.println("다시 입력해 주십시오.");
 	}else{
 		vo.setCom();

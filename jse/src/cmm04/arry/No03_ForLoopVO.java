@@ -2,14 +2,14 @@ package cmm04.arry;
 
 public class No03_ForLoopVO {
  private int a, b ,c, d, e;
-
-
+ 
 	void loop(int a, int b, int c, int d, int e){
 		setA(a);
 		setB(b);
 		setC(c);
 		setD(d);
 		setE(e);
+		
 		int[] arr = {getA(),getB(),getC(),getD(),getE()};
 		int hap = 0;		
 		for(int i = 0; i <arr.length;i++){
