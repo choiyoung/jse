@@ -1,4 +1,4 @@
-package oop01.game;
+package oop01.encapsule;
 
 public class NumberMatchVO {
 	private int player, com, result;
@@ -18,8 +18,8 @@ public class NumberMatchVO {
 	public int getCom() {
 		return com;
 	}
-	public void setCom(int com) {
-		this.com = (int)((Math.random()*5)+1);		
+	public void setCom() {
+		this.com = (int)((Math.random()*100)+1);		
 	}	
 	
 	public int getResult() {
