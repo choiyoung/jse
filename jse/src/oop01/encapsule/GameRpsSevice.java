@@ -17,17 +17,16 @@ public class GameRpsSevice {
 		case 2: result = "바위";
 			break;
 		case 3: result = "보";
-		default: result = "1부터 3까지만 가능합니다.";
 			break;
+		default: result = "1부터 3까지만 가능합니다.";
+			
 		}
-		return result;
-	
-		
-	}
+		return result;		
+}
 
 	public String displayComValue() {
 		String result = null;
-		int comvalue = (int)(Math.random()*3)+1;
+		int comvalue = (int)((Math.random()*3)+1);
 		switch (comvalue) {
 		case 1:  result = "가위";			
 			break;
@@ -36,12 +35,13 @@ public class GameRpsSevice {
 		case 3: result = "보";
 		default: result = "1부터 3까지만 가능합니다.";
 			break;
-		}
+		}	
 		return result;
 		
 	}
 
-	public String showWinner( ) {
+	public String showWinner() {
+		
 		
 		
 	return null;

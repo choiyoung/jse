@@ -12,10 +12,10 @@ public class GameRpsController {
 		Scanner scanner = new Scanner(System.in);
 		int playerValue = scanner.nextInt();
 		
-		System.out.println("당신은"+service.showRpsValue(playerValue)+"을 냈습니다.");		
+		System.out.println("당신은"+service.showRpsValue(playerValue)+"를 냈습니다.");		
 		String comValue = service.displayComValue();
 		String winner= service.showWinner();
-		System.out.println("컴퓨터는"+service.displayComValue()+"을 냈고"+"결과는 "+winner+"니다.");
+		System.out.println("컴퓨터는"+service.displayComValue()+"을 냈고"+"결과는 "+service.showWinner()+"니다.");
 		
 		scanner.close();
 	}
