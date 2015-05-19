@@ -1,4 +1,4 @@
-package oop01.syntax;
+package oop02.syntax;
 /*
  Data : 2015-05-18
  Author : √÷øµ¿Œ

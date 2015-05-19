@@ -1,6 +1,6 @@
-package oop01.syntax;
+package oop02.syntax;
 
-public class AverageDVO {
+public class AverageVO {
 	private String name;
 	private int kor;
 	private int eng;
@@ -21,5 +21,13 @@ public class AverageDVO {
 	}
 	public void setEng(int eng) {
 		this.eng = eng;
+	}
+	public int tot(){
+		int tot;
+		return tot = getKor()+getEng();
+	}
+	public double avg(int tot){
+		double avg;
+		return avg = tot/2.0; 
 	}
 }

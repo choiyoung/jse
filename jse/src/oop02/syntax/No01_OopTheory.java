@@ -1,4 +1,4 @@
-package oop01.syntax;
+package oop02.syntax;
 /*
  프로그래밍의 발전 단계
  1. 순차적 :  GOTO, Line 번호, Fortran
@@ -29,6 +29,6 @@ package oop01.syntax;
  	-> 구조체(기본데이터 타입의 집합체)
  	-> 클래스
  */
-public class OopTheory {
+public class No01_OopTheory {
 
 }
